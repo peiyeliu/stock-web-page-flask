@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../static/styles/style.css">
+</head>
+
+<div id="d1">
+<p>
+	<h1>Stock Search</h1>
+	<form id="Search" method="get" action="/getinfo">
+        <p>Enter stock Ticker Symbol</p>
+        <input type="text" name="name" required="required">
+        <input type="submit" value="Search">
+        <button type="reset" onclick="clearPage()">Clear</button>
+	</form>
+</p>
+</div>
+
+<HR align=center color=white SIZE=1>
+
+<div id="d2">
+    <h3 style="font-family: Arial" align="center">Error: No record has been found, please enter a valid label.</h3>
+</div>
+
+<script src="../static/js/script.js"></script>
+</html>

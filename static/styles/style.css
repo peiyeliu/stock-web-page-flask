@@ -1,0 +1,90 @@
+html {
+	background-color: #6C8FF4;
+}
+
+h1 {
+	padding-top: 20px;
+	font-size: 40px;
+	text-align: center;
+	font-family: Arial;
+}
+
+span {
+	font-size: 12px;
+	font-family: Arial;
+}
+
+
+button {
+	margin: 40px 40px 40px 20px;
+	border: none;
+}
+
+#d1 {
+	margin: 20px;
+	font-family: Arial;
+	background-color: #C9CEDC;
+}
+
+#Search {
+	margin: 40px;
+	text-align: center;
+}
+
+#btn{
+	margin: 40px;
+	text-align: center;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+	font-family: Arial;
+}
+
+.menu li{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+	font-family: Arial;
+}
+
+.menu li.active{
+    background: #C9CEDC;
+}
+
+.con div{
+	display: none;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+.con div.displayed{
+	display: block;
+}
+
+div table{
+	margin: 20px;
+	background: #C9CEDC;
+}
+
+.news {
+	margin: 20px;
+	font-size: 12px;
+	background: #C9CEDC;
+	font-family: Arial;
+}
+
+.news img{
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.tablefill {
+	background: whitesmoke;
+}
